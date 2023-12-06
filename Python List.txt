@@ -1,0 +1,16 @@
+LIst Functions=
+len,max,min,sum,enumerate,any,all,sorted.
+
+List Methods=
+obj.append,obj.extend,obj.copy,obj.reverse,obj.remove,obj.pop(),obj.pop(x),obj.insert(index,value),obj.count(x).
+
+list1=[4,3,4,5]
+list(enumerate(list1)
+output=[(0,4),(1,3),(2,4),(3,5)]
+
+
+all(list1) will return true if all elements of list are true otherwise false
+any(list1) will returns True if any item is True in whole list otherwise it will returns False
+append functions will treat the input as single elements and add it to the last of list ex-[2,3]will be single element it will add this list to another list,but extend function will merge the nested list with that list.
+ 
+
